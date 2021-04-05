@@ -4,15 +4,15 @@ import styled from 'styled-components';
 
 const Styles = styled.div
 `
-  .navbar { background-color: #222; }
+  .navbar { background-color: #000E2F; }
   a, .navbar-nav, .navbar-light .nav-link {
-    color: #9FFFCB;
-    &:hover { color: white; }
+    color: #FFFFFF;
+    &:hover { color: #E4002B; }
   }
   .navbar-brand {
     font-size: 1.4em;
-    color: #9FFFCB;
-    &:hover { color: white; }
+    color: #FFFFFF;
+    &:hover { color: #E4002B; }
   }
   .form-center {
     position: absolute !important;
@@ -24,14 +24,14 @@ const Styles = styled.div
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">UConn Senior Design</Navbar.Brand>
+      <Navbar.Brand href="/">SCORACLE.BB</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
-          <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/contactUs">Contact Us</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/docs">Documentation</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/">HOME</Nav.Link></Nav.Item> 
+          <Nav.Item><Nav.Link href="/about">ABOUT</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/contactUs">CONTACT US</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/docs">DOCUMENTATION</Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
