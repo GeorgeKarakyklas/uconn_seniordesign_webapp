@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Container, Grid } from '../styled/HomeStyled';
 
 const GridWrapper = styled.div`
   display: grid;
@@ -12,8 +13,19 @@ const GridWrapper = styled.div`
 `;
 
 export const Home = (props) => (
-  <GridWrapper>
-    <p>This is a paragraph and I am writing on the home page</p>
-    <p>This is another paragraph, hi hey hello whatsup yo</p>
-  </GridWrapper>
+  <Container>
+    <Grid>
+      <img src = {"/images/basketball.png"} alt = "ball"></img>
+      <div>
+        <p>Placeholder for the ZAP Widget.</p>
+      </div>
+      <div>
+        <p>Placeholder for anything neccesary upon pressing a button.</p>
+      </div>
+    </Grid>
+    <br></br>
+    <h2>Any neccesary buttons will share a column here.</h2>
+    <br></br>
+    <h2>Oracle-Query-Response will be displayed in this column.</h2>
+  </Container>
 )
