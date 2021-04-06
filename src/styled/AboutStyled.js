@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
     max-width: 90vw;
     margin: 0 auto;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
 `;
 
 export const Title = styled.h2`
@@ -12,10 +14,13 @@ export const Title = styled.h2`
 `;
 
 export const ImageCombination = styled.div`
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     grid-gap: 30px;
     margin: auto;
-    grid-template-columns: repeat(2, 1fr);
+    font-size: calc(30px + 2vmin);
 `;
 
 export const CenteredImage = styled.image`

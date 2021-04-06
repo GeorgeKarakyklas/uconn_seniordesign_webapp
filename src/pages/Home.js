@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Grid } from '../styled/HomeStyled';
+import { getWeb3, getBalance } from "../Web3.js"
 
 export const Home = (props) => (
   <Container>
@@ -9,7 +10,7 @@ export const Home = (props) => (
         <p>Placeholder for the ZAP Widget.</p>
       </div>
       <div>
-        <p>Placeholder for anything neccesary upon pressing a button.</p>
+        <button onClick={getBalance}>Click to Make a Query </button>
       </div>
       <div>
         <p>DESCRIPTION OF ORACLE</p>

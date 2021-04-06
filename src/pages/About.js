@@ -6,8 +6,9 @@ export const About = () => (
     <Title>PROJECT SUMMARY</Title>
     <ImageCombination>
       <a href = "https://seniordesign.engr.uconn.edu/" rel = "noreferrer" target = "_blank">
-          <img src = {"/images/uconn_logo.jpg"} alt = "uconn"></img>
+          <img src = {"/images/uconn_logo.jpg"} alt = "uconn" width = "600" height = "180"></img>
       </a>
+      <p>x</p>
       <a href = "https://zap.org/home" rel = "noreferrer" target = "_blank">
         <img src = {"/images/zap_logo.jpeg"} alt = "zap" width = "600" height = "300"></img>
       </a>
