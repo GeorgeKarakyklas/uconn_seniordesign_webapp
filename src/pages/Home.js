@@ -1,16 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Container, Grid } from '../styled/HomeStyled';
-
-const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 6em;
-  margin-right: 6em;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(25px, auto);
-`;
 
 export const Home = (props) => (
   <Container>
@@ -21,6 +10,9 @@ export const Home = (props) => (
       </div>
       <div>
         <p>Placeholder for anything neccesary upon pressing a button.</p>
+      </div>
+      <div>
+        <p>DESCRIPTION OF ORACLE</p>
       </div>
     </Grid>
     <br></br>
