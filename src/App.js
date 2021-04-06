@@ -7,8 +7,10 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import { Documentation } from './pages/Documentation';
+import { getWeb3, getBalance } from './Web3.js'
 
 function App() {
+  getWeb3();
   return (
     <React.Fragment>
       <Router>
