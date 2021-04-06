@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Container, Grid } from '../styled/HomeStyled';
+import { getWeb3, getBalance } from "../Web3.js"
 
 const GridWrapper = styled.div`
   display: grid;
@@ -20,7 +21,7 @@ export const Home = (props) => (
         <p>Placeholder for the ZAP Widget.</p>
       </div>
       <div>
-        <p>Placeholder for anything neccesary upon pressing a button.</p>
+        <button onClick={getBalance}>Click to Make a Query </button>
       </div>
     </Grid>
     <br></br>
