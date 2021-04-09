@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/uconn_seniordesign_webapp/static/css/main.1635e87c.chunk.css",
+    "main.js": "/uconn_seniordesign_webapp/static/js/main.0d9e1caa.chunk.js",
+    "main.js.map": "/uconn_seniordesign_webapp/static/js/main.0d9e1caa.chunk.js.map",
+    "runtime-main.js": "/uconn_seniordesign_webapp/static/js/runtime-main.a3c9e355.js",
+    "runtime-main.js.map": "/uconn_seniordesign_webapp/static/js/runtime-main.a3c9e355.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/uconn_seniordesign_webapp/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ece29444.chunk.js": "/uconn_seniordesign_webapp/static/js/2.ece29444.chunk.js",
+    "static/js/2.ece29444.chunk.js.map": "/uconn_seniordesign_webapp/static/js/2.ece29444.chunk.js.map",
+    "static/js/3.e398d86f.chunk.js": "/uconn_seniordesign_webapp/static/js/3.e398d86f.chunk.js",
+    "static/js/3.e398d86f.chunk.js.map": "/uconn_seniordesign_webapp/static/js/3.e398d86f.chunk.js.map",
+    "index.html": "/uconn_seniordesign_webapp/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/uconn_seniordesign_webapp/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.1635e87c.chunk.css.map": "/uconn_seniordesign_webapp/static/css/main.1635e87c.chunk.css.map",
+    "static/js/2.ece29444.chunk.js.LICENSE.txt": "/uconn_seniordesign_webapp/static/js/2.ece29444.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3c9e355.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ece29444.chunk.js",
+    "static/css/main.1635e87c.chunk.css",
+    "static/js/main.0d9e1caa.chunk.js"
+  ]
+}
