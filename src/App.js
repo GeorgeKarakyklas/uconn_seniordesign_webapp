@@ -3,14 +3,14 @@ import { Home } from './pages/Home';
 import { ContactUs } from './pages/ContactUs';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import { Documentation } from './pages/Documentation';
 
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename = {process.env.PUBLIC_URL}>
         <NavigationBar />
         <Switch>
           <Route exact path="/" component={Home} />
