@@ -24,7 +24,7 @@ const Styles = styled.div
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">SCORACLE.BB</Navbar.Brand>
+      <Navbar.Brand href="/uconn_seniordesign_webapp/#/">SCORACLE.BB</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

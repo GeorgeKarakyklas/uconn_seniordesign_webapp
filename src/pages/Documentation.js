@@ -11,14 +11,14 @@ export const Documentation = () => (
     <div id="toc_container">
       <p class="toc_title">Contents</p>
       <ul class="toc_list">
-        <li><a href="#1">1. Finding a Quality Data Source</a></li>
-        <li><a href="#2">2. Utilizing the Zap Oracle Template</a></li>
-        <li><a href="#3">3. Testing with Zap Hardhat</a></li>
+        <li><a href="#/docs/1">1. Finding a Quality Data Source</a></li>
+        <li><a href="#/docs/2">2. Utilizing the Zap Oracle Template</a></li>
+        <li><a href="#/docs/3">3. Testing with Zap Hardhat</a></li>
       </ul>
     </div>
     </TOC>
     <Subtitle>How to Create an Oracle on the Zap Platform</Subtitle>
-    <SectionTitle id="1">1. Finding a Quality Data Source</SectionTitle>
+    <SectionTitle id="/docs/1">1. Finding a Quality Data Source</SectionTitle>
     <Text>
       The first step in creating an oracle is identifying a stream of data that people might find valuable (It is important to remember that your oracle 
       will be a part of the Zap oracle marketplace, wherein users may bond and speculate on your bonding curve).
@@ -26,7 +26,7 @@ export const Documentation = () => (
       This will require an oracle provider to either find an already existing and trusted data source (API) or to simply create their own. When using a 3rd 
       party API, like within this project, it is crucial to read the source's terms and conditions of use before moving forward.
     </Text>
-    <SectionTitle id="2">2. Utilizing the Zap Oracle Template</SectionTitle>
+    <SectionTitle id="/docs/2">2. Utilizing the Zap Oracle Template</SectionTitle>
     <Text>
       The oracle template is a tool that was built by the Zap team with the purpose of allowing any 3rd party to easily build an oracle and instantly begin 
       selling data on the marketplace. We have been able to do that, utilizing it as the backbone of this project. This tutorial will highlight in detail 
@@ -57,7 +57,7 @@ export const Documentation = () => (
     <br></br>
     <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Responder.ts"><img src={responder} ></img></a>
     <br></br>
-    <SectionTitle id="3">3. Testing with Zap Hardhat</SectionTitle>
+    <SectionTitle id="/docs/3">3. Testing with Zap Hardhat</SectionTitle>
     <Text>
       In this section of the tutorial, we are going to focus on testing our template with zap hardhat. Another extremely useful open-source tool developed 
       by Zap, it gives developers the ability to test their oracles locally prior to deployment by simulating a blockchain within which the Zap infrastructure 
