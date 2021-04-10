@@ -1,5 +1,10 @@
 import React from 'react';
 import { Image, Container, Title, ImageGrid, Contact, ContactWrapper } from '../styled/ContactUsStyled';
+import charlie from "../images/charlie.jpg";
+import gorg from "../images/gorg.png";
+import robin from "../images/robin.jpeg";
+import jason from "../images/jason.png";
+import gaurav from "../images/gaurav.jpg";
 
 export const ContactUs = () => (
   <Container>
@@ -7,7 +12,7 @@ export const ContactUs = () => (
     <ImageGrid>
         <ContactWrapper>
             <Image>
-                <img src = {"/images/charlie.jpg"} alt = "face1"></img>
+                <img src = {charlie} alt = "face1"></img>
             </Image>
             <Contact>
                 <h4>Charles Ira</h4>
@@ -17,7 +22,7 @@ export const ContactUs = () => (
         </ContactWrapper>
         <ContactWrapper>
             <Image>
-                <img src = {"/images/gorg.png"} alt = "face2" class="image" width="200" height="200"></img>
+                <img src = {gorg} alt = "face2" class="image" width="200" height="200"></img>
             </Image>
             <Contact>
                 <h4>Georgios Karakyklas</h4>
@@ -27,7 +32,7 @@ export const ContactUs = () => (
         </ContactWrapper>
         <ContactWrapper>
             <Image>
-                <img src = {"/images/robin.jpeg"} alt = "face3"></img>
+                <img src = {robin} alt = "face3"></img>
             </Image>
             <Contact>
                 <h4>Robin Lopez</h4>
@@ -37,7 +42,7 @@ export const ContactUs = () => (
         </ContactWrapper>
         <ContactWrapper>
             <Image>
-                <img src = {"/images/jason.png"} alt = "face4"></img>
+                <img src = {jason} alt = "face4"></img>
             </Image>
             <Contact>
                 <h4>  Jason Chau</h4>
@@ -47,7 +52,7 @@ export const ContactUs = () => (
         </ContactWrapper>
         <ContactWrapper>
             <Image>
-                <img src = {"/images/gaurav.jpg"} alt = "face5"></img>
+                <img src = {gaurav} alt = "face5"></img>
             </Image>
             <Contact>
                 <h4>Gaurav Manandhar</h4>

@@ -29,8 +29,8 @@ export const NavigationBar = () => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item><Nav.Link href="/uconn_seniordesign_webapp/#/">HOME</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/uconn_seniordesign_webapp/#/contactUs">CONTACT US</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/uconn_seniordesign_webapp/#/docs">DOCUMENTATION</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/uconn_seniordesign_webapp/#/contactUs/">CONTACT US</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/uconn_seniordesign_webapp/#/docs/">DOCUMENTATION</Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

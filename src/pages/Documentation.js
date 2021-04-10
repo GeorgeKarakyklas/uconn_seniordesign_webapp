@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Title, Subtitle, TOC, SectionTitle, Text, Code } from '../styled/DocsStyled';
+import config from "../images/config.png";
+import responder from "../images/responder.png";
+import hardhat from "../images/hardhat.png";
 
 export const Documentation = () => (
   <Container>
@@ -43,7 +46,7 @@ export const Documentation = () => (
       description of the structure that incoming queries must adhere to.
     </Text>
     <br></br>
-    <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Config.json"><img src={"/images/config.png"} ></img></a>
+    <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Config.json"><img src={config} ></img></a>
     <br></br>
     <br></br>
     <Text>
@@ -52,7 +55,7 @@ export const Documentation = () => (
       that would require modification, but feel free to click on the image and take a look at a finished product.
     </Text>
     <br></br>
-    <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Responder.ts"><img src={"/images/responder.png"} ></img></a>
+    <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Responder.ts"><img src={responder} ></img></a>
     <br></br>
     <SectionTitle id="3">3. Testing with Zap Hardhat</SectionTitle>
     <Text>
@@ -77,7 +80,7 @@ export const Documentation = () => (
       additional help feels neccesary.
     </Text>
     <br></br>
-    <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Responder.ts"><img src={"/images/hardhat.png"} ></img></a>
+    <a href="https://github.com/GeorgeKarakyklas/SCORACLE.BB-demo/blob/master/Oracle/Responder.ts"><img src={hardhat} ></img></a>
     <br></br>
     <br></br>
     <Text>
