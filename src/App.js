@@ -13,9 +13,9 @@ function App() {
       <Router basename = {process.env.PUBLIC_URL}>
         <NavigationBar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/contactUs" component={ContactUs} />
-          <Route path="/docs" component={Documentation} />
+          <Route exact path="/uconn_seniordesign_webapp/#/" component={Home} />
+          <Route path="/uconn_seniordesign_webapp/#/contactUs" component={ContactUs} />
+          <Route path="/uconn_seniordesign_webapp/#/docs" component={Documentation} />
         </Switch>
       </Router>
     </React.Fragment>
