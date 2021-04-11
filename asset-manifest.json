@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uconn_seniordesign_webapp/static/css/main.1635e87c.chunk.css",
-    "main.js": "/uconn_seniordesign_webapp/static/js/main.6fca7049.chunk.js",
-    "main.js.map": "/uconn_seniordesign_webapp/static/js/main.6fca7049.chunk.js.map",
+    "main.js": "/uconn_seniordesign_webapp/static/js/main.1c8282dc.chunk.js",
+    "main.js.map": "/uconn_seniordesign_webapp/static/js/main.1c8282dc.chunk.js.map",
     "runtime-main.js": "/uconn_seniordesign_webapp/static/js/runtime-main.a3c9e355.js",
     "runtime-main.js.map": "/uconn_seniordesign_webapp/static/js/runtime-main.a3c9e355.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/uconn_seniordesign_webapp/static/css/2.4c97ca4f.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.41f5cc1f.chunk.js",
     "static/css/main.1635e87c.chunk.css",
-    "static/js/main.6fca7049.chunk.js"
+    "static/js/main.1c8282dc.chunk.js"
   ]
 }
