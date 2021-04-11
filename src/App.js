@@ -6,6 +6,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { NavigationBar } from './components/NavigationBar';
 import { Documentation } from './pages/Documentation';
+import { Research } from './pages/Research';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/contactUs/" component={ContactUs} />
+          <Route path="/research/" component={Research} />
           <Route path="/docs/" component={Documentation} />
         </Switch>
       </Router>
